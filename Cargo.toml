@@ -1,12 +1,12 @@
 [package]
 name = "less-core"
 description = "Metin modeli: buffer, undo, seçim, çoklu imleç, dosya G/Ç. UI'dan bağımsız."
-version.workspace = true
-edition.workspace = true
-license.workspace = true
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
 
-[lints]
-workspace = true
+[lints.rust]
+unsafe_code = "forbid"
 
 [dependencies]
 regex = "1.13"
